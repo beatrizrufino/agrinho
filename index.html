@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia na Agricultura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AGRINHO</h1>
+        <p>A tecnologia tem revolucionado a agricultura, proporcionando maior eficiência, produtividade e sustentabilidade. Vamos testar seus conhecimentos sobre esse tema!</p>
+
+        <div class="quiz">
+            <table class="question-table">
+                <tr>
+                    <td>
+                        <div class="question" id="question1">
+                            <p>1. Qual é o principal benefício do uso de drones na agricultura?</p>
+                            <ul class="answers">
+                                <li><input type="radio" name="q1" value="a"> a) Plantar sementes automaticamente</li>
+                                <li><input type="radio" name="q1" value="b"> b) Pulverizar pesticidas de forma precisa</li>
+                                <li><input type="radio" name="q1" value="c"> c) Colher os frutos</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="question" id="question2">
+                            <p>2. Qual tecnologia é usada para monitorar a saúde das plantas?</p>
+                            <ul class="answers">
+                                <li><input type="radio" name="q2" value="a"> a) Inteligência Artificial</li>
+                                <li><input type="radio" name="q2" value="b"> b) Realidade Virtual</li>
+                                <li><input type="radio" name="q2" value="c"> c) Internet das Coisas (IoT)</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <button onclick="checkAnswers()">Verificar Respostas</button>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
